@@ -7,12 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		962BDF7D652DD54A73310A89 /* Pods_SwiftTorrentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB216043A3E3DC7148FA76B7 /* Pods_SwiftTorrentTests.framework */; };
+		E240E1A01F74438400DEAFD5 /* ScrapeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E240E19F1F74438400DEAFD5 /* ScrapeModel.swift */; };
+		E240E1A21F746B0E00DEAFD5 /* TrackerServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E240E1A11F746B0E00DEAFD5 /* TrackerServiceProtocol.swift */; };
+		E240E1A51F7470A300DEAFD5 /* BencodableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E240E1A41F7470A300DEAFD5 /* BencodableProtocol.swift */; };
 		E272E12D1F6B35DB00A4AF13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E272E12C1F6B35DB00A4AF13 /* AppDelegate.swift */; };
 		E272E12F1F6B35DB00A4AF13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E272E12E1F6B35DB00A4AF13 /* ViewController.swift */; };
 		E272E1321F6B35DB00A4AF13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E272E1301F6B35DB00A4AF13 /* Main.storyboard */; };
 		E272E1341F6B35DB00A4AF13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E272E1331F6B35DB00A4AF13 /* Assets.xcassets */; };
 		E272E1371F6B35DB00A4AF13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E272E1351F6B35DB00A4AF13 /* LaunchScreen.storyboard */; };
 		E272E1421F6B35DB00A4AF13 /* SwiftTorrentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E272E1411F6B35DB00A4AF13 /* SwiftTorrentTests.swift */; };
+		E272E1501F6B368100A4AF13 /* Meta.swift in Sources */ = {isa = PBXBuildFile; fileRef = E272E14F1F6B368100A4AF13 /* Meta.swift */; };
+		E272E1581F6C12B800A4AF13 /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = E272E1571F6C12B800A4AF13 /* Info.swift */; };
+		E272E15A1F6C12D900A4AF13 /* FileInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E272E1591F6C12D900A4AF13 /* FileInfo.swift */; };
+		E272E15D1F6C263700A4AF13 /* Entourage.torrent in Resources */ = {isa = PBXBuildFile; fileRef = E272E15C1F6C252700A4AF13 /* Entourage.torrent */; };
+		E272E1641F6C3B5D00A4AF13 /* TrackerResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E272E1631F6C3B5D00A4AF13 /* TrackerResponseModel.swift */; };
+		E272E1661F6D3D2D00A4AF13 /* PeerInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E272E1651F6D3D2D00A4AF13 /* PeerInfo.swift */; };
+		E272E1681F6D463C00A4AF13 /* TrackerRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E272E1671F6D463C00A4AF13 /* TrackerRequestModel.swift */; };
+		E272E16B1F6D5B5900A4AF13 /* HandshakeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E272E16A1F6D5B5900A4AF13 /* HandshakeModel.swift */; };
+		E272E1751F6D869F00A4AF13 /* TrackerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E272E1741F6D869F00A4AF13 /* TrackerService.swift */; };
+		E272E1781F6D8E5500A4AF13 /* URLRequestExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E272E1771F6D8E5500A4AF13 /* URLRequestExtension.swift */; };
+		E2F8AB761F70342200FF454F /* Baywatch.torrent in Resources */ = {isa = PBXBuildFile; fileRef = E2F8AB751F70342200FF454F /* Baywatch.torrent */; };
+		E2F8ABBB1F72EEC100FF454F /* DataExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F8ABBA1F72EEC100FF454F /* DataExtension.swift */; };
+		E2F8ABBD1F72F00500FF454F /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F8ABBC1F72F00500FF454F /* StringExtension.swift */; };
+		E2FD76A31F6FF1430085AA35 /* BoolExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FD76A21F6FF1430085AA35 /* BoolExtension.swift */; };
+		E2FD76A51F6FF14A0085AA35 /* IntExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FD76A41F6FF14A0085AA35 /* IntExtension.swift */; };
+		E2FD76A71F6FF1520085AA35 /* DictionaryExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FD76A61F6FF1520085AA35 /* DictionaryExtension.swift */; };
+		E2FD76AA1F7014930085AA35 /* Torrent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FD76A91F7014930085AA35 /* Torrent.swift */; };
+		EDE7D610879C8BCCFCAE7460 /* Pods_SwiftTorrent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 326476A4BF89929233DCB0E1 /* Pods_SwiftTorrent.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +48,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A732BDFB99E78B32A81E39D /* Pods-SwiftTorrent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTorrent.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftTorrent/Pods-SwiftTorrent.release.xcconfig"; sourceTree = "<group>"; };
+		326476A4BF89929233DCB0E1 /* Pods_SwiftTorrent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftTorrent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		569E5A1E46E9ABF913EF33DB /* Pods-SwiftTorrentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTorrentTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftTorrentTests/Pods-SwiftTorrentTests.release.xcconfig"; sourceTree = "<group>"; };
+		8CE73BB704E958BAEBD8C669 /* Pods-SwiftTorrent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTorrent.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftTorrent/Pods-SwiftTorrent.debug.xcconfig"; sourceTree = "<group>"; };
+		C7C1F7AB68FA9246F96D407E /* Pods-SwiftTorrentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTorrentTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftTorrentTests/Pods-SwiftTorrentTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E240E19F1F74438400DEAFD5 /* ScrapeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrapeModel.swift; sourceTree = "<group>"; };
+		E240E1A11F746B0E00DEAFD5 /* TrackerServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerServiceProtocol.swift; sourceTree = "<group>"; };
+		E240E1A41F7470A300DEAFD5 /* BencodableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BencodableProtocol.swift; sourceTree = "<group>"; };
 		E272E1291F6B35DB00A4AF13 /* SwiftTorrent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTorrent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E272E12C1F6B35DB00A4AF13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E272E12E1F6B35DB00A4AF13 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +66,24 @@
 		E272E13D1F6B35DB00A4AF13 /* SwiftTorrentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTorrentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E272E1411F6B35DB00A4AF13 /* SwiftTorrentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTorrentTests.swift; sourceTree = "<group>"; };
 		E272E1431F6B35DB00A4AF13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E272E14F1F6B368100A4AF13 /* Meta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meta.swift; sourceTree = "<group>"; };
+		E272E1571F6C12B800A4AF13 /* Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
+		E272E1591F6C12D900A4AF13 /* FileInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileInfo.swift; sourceTree = "<group>"; };
+		E272E15C1F6C252700A4AF13 /* Entourage.torrent */ = {isa = PBXFileReference; lastKnownFileType = text; path = Entourage.torrent; sourceTree = "<group>"; };
+		E272E1631F6C3B5D00A4AF13 /* TrackerResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerResponseModel.swift; sourceTree = "<group>"; };
+		E272E1651F6D3D2D00A4AF13 /* PeerInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeerInfo.swift; sourceTree = "<group>"; };
+		E272E1671F6D463C00A4AF13 /* TrackerRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerRequestModel.swift; sourceTree = "<group>"; };
+		E272E16A1F6D5B5900A4AF13 /* HandshakeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandshakeModel.swift; sourceTree = "<group>"; };
+		E272E1741F6D869F00A4AF13 /* TrackerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerService.swift; sourceTree = "<group>"; };
+		E272E1771F6D8E5500A4AF13 /* URLRequestExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLRequestExtension.swift; sourceTree = "<group>"; };
+		E2F8AB751F70342200FF454F /* Baywatch.torrent */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Baywatch.torrent; sourceTree = "<group>"; };
+		E2F8ABBA1F72EEC100FF454F /* DataExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataExtension.swift; sourceTree = "<group>"; };
+		E2F8ABBC1F72F00500FF454F /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		E2FD76A21F6FF1430085AA35 /* BoolExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoolExtension.swift; sourceTree = "<group>"; };
+		E2FD76A41F6FF14A0085AA35 /* IntExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntExtension.swift; sourceTree = "<group>"; };
+		E2FD76A61F6FF1520085AA35 /* DictionaryExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryExtension.swift; sourceTree = "<group>"; };
+		E2FD76A91F7014930085AA35 /* Torrent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Torrent.swift; sourceTree = "<group>"; };
+		FB216043A3E3DC7148FA76B7 /* Pods_SwiftTorrentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftTorrentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDE7D610879C8BCCFCAE7460 /* Pods_SwiftTorrent.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +99,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				962BDF7D652DD54A73310A89 /* Pods_SwiftTorrentTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC2E4E0D3CD64A1221AF924C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8CE73BB704E958BAEBD8C669 /* Pods-SwiftTorrent.debug.xcconfig */,
+				1A732BDFB99E78B32A81E39D /* Pods-SwiftTorrent.release.xcconfig */,
+				C7C1F7AB68FA9246F96D407E /* Pods-SwiftTorrentTests.debug.xcconfig */,
+				569E5A1E46E9ABF913EF33DB /* Pods-SwiftTorrentTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E240E1A31F74708800DEAFD5 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				E240E1A11F746B0E00DEAFD5 /* TrackerServiceProtocol.swift */,
+				E240E1A41F7470A300DEAFD5 /* BencodableProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
 		E272E1201F6B35DB00A4AF13 = {
 			isa = PBXGroup;
 			children = (
 				E272E12B1F6B35DB00A4AF13 /* SwiftTorrent */,
 				E272E1401F6B35DB00A4AF13 /* SwiftTorrentTests */,
 				E272E12A1F6B35DB00A4AF13 /* Products */,
+				AC2E4E0D3CD64A1221AF924C /* Pods */,
+				F4E9BCF75A7C45D6A04DC147 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,6 +155,9 @@
 				E272E1331F6B35DB00A4AF13 /* Assets.xcassets */,
 				E272E1351F6B35DB00A4AF13 /* LaunchScreen.storyboard */,
 				E272E1381F6B35DB00A4AF13 /* Info.plist */,
+				E272E14C1F6B364400A4AF13 /* SwiftTorrent */,
+				E2FD76A11F6FF1300085AA35 /* FoundationExtensions */,
+				E272E15B1F6C250E00A4AF13 /* Resources */,
 			);
 			path = SwiftTorrent;
 			sourceTree = "<group>";
@@ -96,6 +171,119 @@
 			path = SwiftTorrentTests;
 			sourceTree = "<group>";
 		};
+		E272E14C1F6B364400A4AF13 /* SwiftTorrent */ = {
+			isa = PBXGroup;
+			children = (
+				E272E14E1F6B365C00A4AF13 /* Models */,
+				E272E14D1F6B365600A4AF13 /* Networking */,
+			);
+			path = SwiftTorrent;
+			sourceTree = "<group>";
+		};
+		E272E14D1F6B365600A4AF13 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				E240E1A31F74708800DEAFD5 /* Protocols */,
+				E272E1731F6D866700A4AF13 /* Services */,
+				E272E1621F6C3A4200A4AF13 /* Tracker */,
+				E272E1691F6D4C6500A4AF13 /* PeerExchange */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		E272E14E1F6B365C00A4AF13 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E272E1561F6C120B00A4AF13 /* Metainfo */,
+				E2FD76A81F6FF8260085AA35 /* Torrent */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E272E1561F6C120B00A4AF13 /* Metainfo */ = {
+			isa = PBXGroup;
+			children = (
+				E272E14F1F6B368100A4AF13 /* Meta.swift */,
+				E272E1571F6C12B800A4AF13 /* Info.swift */,
+				E272E1591F6C12D900A4AF13 /* FileInfo.swift */,
+			);
+			path = Metainfo;
+			sourceTree = "<group>";
+		};
+		E272E15B1F6C250E00A4AF13 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E272E16D1F6D73BF00A4AF13 /* Files */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E272E1621F6C3A4200A4AF13 /* Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				E272E1671F6D463C00A4AF13 /* TrackerRequestModel.swift */,
+				E272E1631F6C3B5D00A4AF13 /* TrackerResponseModel.swift */,
+				E272E1651F6D3D2D00A4AF13 /* PeerInfo.swift */,
+				E240E19F1F74438400DEAFD5 /* ScrapeModel.swift */,
+			);
+			path = Tracker;
+			sourceTree = "<group>";
+		};
+		E272E1691F6D4C6500A4AF13 /* PeerExchange */ = {
+			isa = PBXGroup;
+			children = (
+				E272E16A1F6D5B5900A4AF13 /* HandshakeModel.swift */,
+			);
+			path = PeerExchange;
+			sourceTree = "<group>";
+		};
+		E272E16D1F6D73BF00A4AF13 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2F8AB751F70342200FF454F /* Baywatch.torrent */,
+				E272E15C1F6C252700A4AF13 /* Entourage.torrent */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+		E272E1731F6D866700A4AF13 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E272E1741F6D869F00A4AF13 /* TrackerService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		E2FD76A11F6FF1300085AA35 /* FoundationExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				E2FD76A21F6FF1430085AA35 /* BoolExtension.swift */,
+				E2F8ABBA1F72EEC100FF454F /* DataExtension.swift */,
+				E2FD76A61F6FF1520085AA35 /* DictionaryExtension.swift */,
+				E2FD76A41F6FF14A0085AA35 /* IntExtension.swift */,
+				E2F8ABBC1F72F00500FF454F /* StringExtension.swift */,
+				E272E1771F6D8E5500A4AF13 /* URLRequestExtension.swift */,
+			);
+			path = FoundationExtensions;
+			sourceTree = "<group>";
+		};
+		E2FD76A81F6FF8260085AA35 /* Torrent */ = {
+			isa = PBXGroup;
+			children = (
+				E2FD76A91F7014930085AA35 /* Torrent.swift */,
+			);
+			path = Torrent;
+			sourceTree = "<group>";
+		};
+		F4E9BCF75A7C45D6A04DC147 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				326476A4BF89929233DCB0E1 /* Pods_SwiftTorrent.framework */,
+				FB216043A3E3DC7148FA76B7 /* Pods_SwiftTorrentTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +291,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E272E1461F6B35DB00A4AF13 /* Build configuration list for PBXNativeTarget "SwiftTorrent" */;
 			buildPhases = (
+				7A061E893104DF0F6B770C5C /* [CP] Check Pods Manifest.lock */,
 				E272E1251F6B35DB00A4AF13 /* Sources */,
 				E272E1261F6B35DB00A4AF13 /* Frameworks */,
 				E272E1271F6B35DB00A4AF13 /* Resources */,
+				FCB27CE83146238C578DE97E /* [CP] Embed Pods Frameworks */,
+				2CC21EA461AAB6766EC45324 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +311,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E272E1491F6B35DB00A4AF13 /* Build configuration list for PBXNativeTarget "SwiftTorrentTests" */;
 			buildPhases = (
+				CF325DEE21275E30A3C5269C /* [CP] Check Pods Manifest.lock */,
 				E272E1391F6B35DB00A4AF13 /* Sources */,
 				E272E13A1F6B35DB00A4AF13 /* Frameworks */,
 				E272E13B1F6B35DB00A4AF13 /* Resources */,
+				EE2B5A7F55F320A89BC9B337 /* [CP] Embed Pods Frameworks */,
+				7FBE8D838BF4414B18C7EE34 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -179,9 +373,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2F8AB761F70342200FF454F /* Baywatch.torrent in Resources */,
 				E272E1371F6B35DB00A4AF13 /* LaunchScreen.storyboard in Resources */,
 				E272E1341F6B35DB00A4AF13 /* Assets.xcassets in Resources */,
 				E272E1321F6B35DB00A4AF13 /* Main.storyboard in Resources */,
+				E272E15D1F6C263700A4AF13 /* Entourage.torrent in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,13 +390,137 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2CC21EA461AAB6766EC45324 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftTorrent/Pods-SwiftTorrent-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A061E893104DF0F6B770C5C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftTorrent-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FBE8D838BF4414B18C7EE34 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftTorrentTests/Pods-SwiftTorrentTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF325DEE21275E30A3C5269C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftTorrentTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE2B5A7F55F320A89BC9B337 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftTorrentTests/Pods-SwiftTorrentTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCB27CE83146238C578DE97E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SwiftTorrent/Pods-SwiftTorrent-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Bencode/Bencode.framework",
+				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bencode.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftTorrent/Pods-SwiftTorrent-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E272E1251F6B35DB00A4AF13 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E272E1661F6D3D2D00A4AF13 /* PeerInfo.swift in Sources */,
+				E272E1781F6D8E5500A4AF13 /* URLRequestExtension.swift in Sources */,
 				E272E12F1F6B35DB00A4AF13 /* ViewController.swift in Sources */,
+				E272E1681F6D463C00A4AF13 /* TrackerRequestModel.swift in Sources */,
+				E240E1A51F7470A300DEAFD5 /* BencodableProtocol.swift in Sources */,
+				E272E1581F6C12B800A4AF13 /* Info.swift in Sources */,
+				E2FD76A31F6FF1430085AA35 /* BoolExtension.swift in Sources */,
+				E2FD76AA1F7014930085AA35 /* Torrent.swift in Sources */,
+				E272E16B1F6D5B5900A4AF13 /* HandshakeModel.swift in Sources */,
 				E272E12D1F6B35DB00A4AF13 /* AppDelegate.swift in Sources */,
+				E2F8ABBB1F72EEC100FF454F /* DataExtension.swift in Sources */,
+				E272E1641F6C3B5D00A4AF13 /* TrackerResponseModel.swift in Sources */,
+				E240E1A01F74438400DEAFD5 /* ScrapeModel.swift in Sources */,
+				E2FD76A51F6FF14A0085AA35 /* IntExtension.swift in Sources */,
+				E272E1501F6B368100A4AF13 /* Meta.swift in Sources */,
+				E240E1A21F746B0E00DEAFD5 /* TrackerServiceProtocol.swift in Sources */,
+				E272E15A1F6C12D900A4AF13 /* FileInfo.swift in Sources */,
+				E2F8ABBD1F72F00500FF454F /* StringExtension.swift in Sources */,
+				E2FD76A71F6FF1520085AA35 /* DictionaryExtension.swift in Sources */,
+				E272E1751F6D869F00A4AF13 /* TrackerService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +616,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -345,12 +666,14 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		E272E1471F6B35DB00A4AF13 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CE73BB704E958BAEBD8C669 /* Pods-SwiftTorrent.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -366,6 +689,7 @@
 		};
 		E272E1481F6B35DB00A4AF13 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A732BDFB99E78B32A81E39D /* Pods-SwiftTorrent.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -381,6 +705,7 @@
 		};
 		E272E14A1F6B35DB00A4AF13 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7C1F7AB68FA9246F96D407E /* Pods-SwiftTorrentTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -398,6 +723,7 @@
 		};
 		E272E14B1F6B35DB00A4AF13 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 569E5A1E46E9ABF913EF33DB /* Pods-SwiftTorrentTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
